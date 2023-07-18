@@ -25,7 +25,9 @@
     height: 100%;
 }
 .logo{
-    width:120px;
+    width:100px;
+    height: 50px;
+    margin-top: 15px;
     top:4%;
     left:5%;
 }
@@ -33,7 +35,7 @@
     color: lightblue;
 }
 .banner-homelogo{
-width: 400px;
+width: 440px;
 display: inline-block;
 }
 .banner-text{
@@ -54,22 +56,22 @@ display: inline-block;
     font-weight: 900;
     font-size: 25px;  
 }
-.banner-text .titl{
-    color:#009688;
-    text-shadow: 1px 1px 1px #000,
-        1px 2px 1px #fff,
-        1px 3px 1px #fff,
-        1px 4px 1px #fff,
-        1px 5px 1px #fff,
-        1px 6px 1px #fff,
-        1px 7px 1px #009688,
-        1px 8px 1px #009688,
-        1px 9px 1px #009688,
-        1px 10px 1px #919191,
-    1px 18px 6px rgba(16,16,16,0.4),
-    1px 22px 10px rgba(16,16,16,0.2),
-    1px 25px 35px rgba(16,16,16,0.2),
-    1px 30px 60px rgba(16,16,16,0.4);
+.titl{
+    font-size: 300px;
+    overflow: hidden;
+    letter-spacing: 10px;
+    color:transparent;
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip:text;
+    background-image: url(images/flowebg.jpg);
+    background-size:50%;
+    animation: bg-animation 30s cubic-bezier(0.3,0,0.7,1) infinite;
+}
+
+@keyframes bg-animation{
+    0% {background-position: 0% 0%;}
+    50% {background-position: 100% 100%;}
+    100% {background-position: 0% 0%;}
 }
 .banner-btn{
     margin-top: 0;
@@ -188,6 +190,9 @@ margin-top: 0;
         margin-bottom: 0;
     margin-left:22%;
 }
+    .banner-homelogo{
+        width: 370px;
+    }
     
 }
 
@@ -335,6 +340,9 @@ nav ul li a:hover{
     #banner{
         height:100vh;
     }
+    #menubtn{
+        right:10px;
+    }
 }
 
 /*--service---*/
@@ -351,6 +359,7 @@ nav ul li a:hover{
 }
 .single-service{
     flex-basis: 48%;
+    overflow-y: auto;
     text-align: center;
     border-radius:7px;
     margin-bottom: 20px;
@@ -395,7 +404,7 @@ hr{
     font-size: 14px;
 }
 .single-service:hover .service-desc{
-    bottom:40%;
+    bottom:10%;
     opacity:1;
 }
 @media screen and (max-width:770px){
@@ -404,14 +413,15 @@ hr{
         margin-bottom: 30px;
     }
     .service-desc p{
-        font-size: 12px;
+        font-size: 10px;
     }
     hr{
         margin:5px auto;
     }
     .single-service:hover .service-desc{
-    bottom:3% !important;
+    bottom:5% !important;
     }
+    
 }
 /*--feature---*/
 #feature{
