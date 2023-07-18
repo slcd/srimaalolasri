@@ -393,18 +393,18 @@ nav ul li a:hover{
     transform: translateX(-50%);
     transition: 1s;
 }
-hr{
+.service-desc hr{
     background: #fff;
-    height:0.5px;
+    height:2px;
     border:0;
-    margin:2px auto;
+    margin:15px auto;
     width:60%;
 }
 .service-desc p{
-    font-size: 14px;
+    font-size: 16px;
 }
 .single-service:hover .service-desc{
-    bottom:10%;
+    bottom:20%;
     opacity:1;
 }
 @media screen and (max-width:770px){
@@ -415,9 +415,13 @@ hr{
     .service-desc p{
         font-size: 10px;
     }
-    hr{
-        margin:5px auto;
-    }
+    .service-desc hr{
+    background: #fff;
+    height:0.5px;
+    border:0;
+    margin:2px auto;
+    width:60%;
+}
     .single-service:hover .service-desc{
     bottom:5% !important;
     }
