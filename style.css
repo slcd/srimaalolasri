@@ -80,7 +80,7 @@ display: inline-block;
 }
  .banner-btn {
        --clr-blk: #cfa020;
-  --clr-bkg-clr: #cfa020;
+  --clr-bkg-clr: #F31559;
   --clr-txt: #f9e589;
   --clr-txt1: #5c4003;
   --clr-txt-sha: #ffcc00;
@@ -146,7 +146,7 @@ border-radius:10px;
 
 .banner-btn .waves::before {
   border-radius: 45%;
-  background: #808000;
+  background: #1687A7;
   animation: animate 5s linear infinite;
 }
 
