@@ -56,6 +56,9 @@ display: inline-block;
     font-weight: 900;
     font-size: 25px;  
 }
+.homlogloc{
+    color:dodgerblue;
+}
 .titl{
     font-size: 300px;
     overflow: hidden;
@@ -249,7 +252,6 @@ margin-top: 0;
 }
 .navv-row .fa{
     margin-right: 10px;
-    color:dodgerblue;
     font-size:20px;
 }
 @media screen and (max-width:770px){
