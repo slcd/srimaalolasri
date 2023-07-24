@@ -288,21 +288,19 @@ nav ul li a{
 nav ul li a:hover{
     color:blue;
 }
-.nav-social-links .fa{
-    height: 40px;
-    width: 40px;
+.nav-social-links img{
     font-size: 20px;
     line-height:40px;
     /*border: 1px solid #ffce00;*/
     color:#fff;
-    margin: 50px 0px 0;   
+    margin: 50px 5px 0;   
     cursor:pointer;
     transition: 0.5s;
 }
 .nav-social-links{
     text-align: center;
 }
-.nav-social-links .fa:hover{
+.nav-social-links img:hover{
     color:blue;
     transform: translateY(-7px);
 }
@@ -830,21 +828,19 @@ margin-top: 0;
     }
     
 }
-.social-links .fa{
-    height: 40px;
-    width: 40px;
+.social-links img{
     font-size: 20px;
     line-height:40px;
     /*border: 1px solid #ffce00;*/
     color:#fff;
-    margin: 50px 0px 0;   
+    margin: 50px 10px 0;   
     cursor:pointer;
     transition: 0.5s;
 }
 .social-links{
     text-align: center;
 }
-.social-links .fa:hover{
+.social-links img:hover{
     color:blue;
     transform: translateY(-7px);
 }
