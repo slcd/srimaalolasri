@@ -56,6 +56,8 @@ display: inline-block;
     font-weight: 900;
     font-size: 25px;  
 }
+.homlogloc{
+    color:dodgerblue;
 .titl{
     font-size: 300px;
     overflow: hidden;
